@@ -40,7 +40,7 @@ const Landingpage = () => {
 
       {/* Typewriter header */}
       <div className="text-center mb-2 position-relative z-2">
-        <h1 className="typewriter-text ">
+        <h1 className="typewriter-text text-primary">
           {text}
           <span className="cursor">|</span>
         </h1>
@@ -61,6 +61,7 @@ const Landingpage = () => {
               src={cdt}
               className="card-img-top"
               alt="Creative Digital Technologies"
+              style={{ height: "50%" }}
             />
             <div className="card-body d-flex flex-column">
               <h3 className="card-title">Digital Solutions</h3>
@@ -87,6 +88,7 @@ const Landingpage = () => {
               src={lms}
               className="card-img-top"
               alt="Learning Management System"
+              style={{ height: "50%" }}
             />
             <div className="card-body d-flex flex-column">
               <h3 className="card-title">Learning Management</h3>
@@ -97,7 +99,7 @@ const Landingpage = () => {
               <Link
                 to="#lms"
                 target="_blank"
-                className="btn btn-success mt-2 d-flex align-items-center justify-content-center gap-2"
+                className="btn btn-primary mt-2 d-flex align-items-center justify-content-center gap-2"
               >
                 Explore LMS
                 <ArrowRight size={16} />
@@ -113,6 +115,7 @@ const Landingpage = () => {
               src={sms}
               className="card-img-top"
               alt="School Management System"
+              style={{ height: "50%" }}
             />
             <div className="card-body d-flex flex-column">
               <h3 className="card-title">School Management</h3>
@@ -123,7 +126,7 @@ const Landingpage = () => {
               <Link
                 to="#sms"
                 target="_blank"
-                className="btn btn-info mt-2 d-flex align-items-center justify-content-center gap-2"
+                className="btn btn-primary mt-2 d-flex align-items-center justify-content-center gap-2"
               >
                 Discover SMS
                 <ArrowRight size={16} />

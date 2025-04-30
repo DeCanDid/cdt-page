@@ -9,7 +9,7 @@ const Header = () => {
 
         <div className="d-flex justify-content-between align-items-center flex-wrap">
           <Link to="#" className="logo text-decoration-none text-dark">
-            <img src={cdt} alt="" />
+            <img src={cdt} alt="" style={{width:'160px'}} />
           </Link>
           <Link
             to="#contact"

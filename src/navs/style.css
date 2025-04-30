@@ -1,8 +1,11 @@
+
+/* header style */
+
 .header {
     animation: fadeInDown 1s ease-out;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     background-color: #fff;
-    padding: 1rem 2rem;
+    padding: 1rem 100px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -27,4 +30,45 @@
 
 .contact {
     font-size: 1rem;
+}
+
+@media (max-width:640px) {
+    .header{ 
+        padding: 1rem 20px;
+    }
+
+    .header img{
+        width: 150px !important;
+    }
+}
+
+/* footer style */
+
+.footer {
+    background-color: #f8f9fa;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+    animation: fadeInUp 1s ease-out;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './navs/Header.jsx';
+import Footer from './navs/Footer.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Header/>
       <App />
+      <Footer/>
 
     </BrowserRouter>
   </StrictMode>,
